@@ -1,3 +1,7 @@
 ## Compilar
 Por conta da extensão CODE RUNNER, compilar o projeto com o comando CTRL + ALT + N <br>
 E para parar a execução de um loop CTRL + ALT + M
+<br>
+##Configuração
+Na versão 1.11 do Go, foi introduzido um sistema de módulos na linguagem que é incompatível com as próximas aulas. Caso você esteja utilizando a versão 1.11 ou superior, <br>
+você precisará rodar o comando GO111MODULE=off para desativar este sistema e poder acompanhar as próximas aulas.
