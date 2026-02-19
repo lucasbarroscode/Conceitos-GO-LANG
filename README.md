@@ -9,4 +9,11 @@ você precisará rodar o comando GO111MODULE=off para desativar este sistema e p
 <h3>Paralelismo: Executar codigo simultanemante em processadores fisicos diferentes.
 <br>
 <h3>Concorrencia: Intercalar (adminsitrar) varios processos ao mesmo tempo e isso pode ocorrer em um único processador fisico.
-
+<br>
+##Teste
+Para gerar o resultado dentro desse arquivo: 
+go test --coverprofile=resultado.out
+<br>
+Conseguir ler esse resultado e mostrar na tela o que está acontecendo: go tool cover -gunc=resultado.out
+<br>
+Pagina html com o resultado detalhado com a sua cobertura: go tool cover -html=resultado.out
